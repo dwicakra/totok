@@ -161,6 +161,10 @@
   margin-bottom: 5px;
 }
 
+.form-content .form-items p a.no-underline {
+  text-decoration: "none";
+}
+
 /* Add the following CSS to the end of the file */
 
 @media (max-width: 767px) {

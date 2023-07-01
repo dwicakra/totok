@@ -36,7 +36,7 @@ function Togel() {
       setErrorMessage("");
     } else {
       setHasilGenerate([]);
-      setErrorMessage("Masukan Angka");
+      setErrorMessage("Data Kosong");
     }
   };
 
@@ -50,14 +50,24 @@ function Togel() {
                 <div className="form-content">
                   <div className="form-items">
                     <h3>Prediksi Masa depan</h3>
-                    <p>Kuncinya Yakin</p>
+                    <p>
+                      Jangan lupa pajak&nbsp;
+                      <a
+                        href="https://saweria.co/dwicakra"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Saweria
+                      </a>
+                    </p>
                     <form>
                       <div className="mb-3">
                         <input
                           className="form-control"
                           type="number"
                           name="angkaTerakhir"
-                          placeholder="Angka Terakhir"
+                          placeholder="Masukan Angka Ekor Sebelum"
                           value={angkaTerakhir}
                           onChange={handleAngkaTerakhirChange}
                           required
@@ -92,7 +102,7 @@ function Togel() {
                           className="btn btn-primary"
                           onClick={handleGenerateClick}
                         >
-                          Submit
+                          Prediksi
                         </button>
                       </div>
                     </form>
