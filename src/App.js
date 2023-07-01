@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Togel from "./pages/tools/Togel";
+import Togel from "./pages/Togel";
+// import Togel from "./pages/tools/Togel";
 
 function App() {
   return (

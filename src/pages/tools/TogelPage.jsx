@@ -4,7 +4,7 @@ import angaTerakhirData from "../../components/angaTerakhirData";
 import "../../assets/style.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-function Togel() {
+function TogelPage() {
   const [angkaTerakhir, setAngkaTerakhir] = useState("");
   const [berapaDigit, setBerapaDigit] = useState(4);
   const [berapaGenerate, setBerapaGenerate] = useState(5);
@@ -145,4 +145,4 @@ function Togel() {
   );
 }
 
-export default Togel;
+export default TogelPage;
